@@ -1,0 +1,224 @@
+<!-- ============================================================
+     Connect Your Stack — Performance card (.sl3-stage) Webflow Embed
+     Fluid: width:100% of parent, height locked to the original
+     1180:600 design ratio. All internal sizing uses container-query
+     units (cqw) nested two levels deep (.sl3-stage -> .sl3-screen),
+     so the whole browser-window mockup scales with the Embed box.
+     Self-contained: only the always-reachable "performance" pane is kept —
+     the other 3 tab variants (sales/events/operations) had no switcher
+     included in this export and were unreachable, so they were dropped
+     to keep this lean. The reveal animations here (row-by-row table,
+     sync modal, toast) are plain CSS "both" fill-mode — they play once
+     on load/scroll-into-view; no JS loop was present in the source for
+     this pane, unlike the sales one.
+     UPDATED: right-hand caption list (.slx-list — "Distribute on
+     LinkedIn") removed. .slx-stage now spans full width.
+     ============================================================ -->
+<div class="sl3-stage">
+      <div class="sl3-screen">
+        <div class="sl3-chrome" aria-hidden="true"><i></i><i></i><i></i><span class="url">linkedin.com/in/wendy-barrie</span></div>
+        <div class="sl3-side" aria-hidden="true">
+          <div class="sl3s-acct"><span class="u">U</span><div class="nm"><b>Userled</b><span>Aaron Carpenter</span></div><span class="cv">&#8964;</span></div>
+          <div class="sl3s-nav on" data-nav="dashboard"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 13h8V3H3zM13 21h8V3h-8zM3 21h8v-6H3z"/></svg>Dashboard</div>
+          <div class="sl3s-nav" data-nav="accounts"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21h16M5 21V6l7-3 7 3v15M9 9h0M9 13h0M15 9h0M15 13h0M10 21v-4h4v4"/></svg>Accounts</div>
+          <div class="sl3s-nav" data-nav="outbound"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg>Campaigns</div>
+          <div class="sl3s-nav" data-nav="brand"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3s6 6 6 10a6 6 0 0 1-12 0c0-4 6-10 6-10z"/></svg>Brand</div>
+          <div class="sl3s-nav" data-nav="library"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 9 5-9 5-9-5 9-5zM3 13l9 5 9-5"/></svg>Library</div>
+          <div class="sl3s-foot">
+            <div class="sl3s-nav sm" data-nav="helpdocs"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.2a2.5 2.5 0 1 1 3.5 2.3c-.8.4-1 .8-1 1.6M12 17h0"/></svg>Help Docs</div>
+            <div class="sl3s-nav sm" data-nav="integrations"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 17H7a5 5 0 0 1 0-10h2M15 7h2a5 5 0 0 1 0 10h-2M8 12h8"/></svg>Integrations</div>
+            <div class="sl3s-nav sm" data-nav="settings"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 13a7.5 7.5 0 0 0 0-2l2-1.5-2-3.4-2.4 1a7.5 7.5 0 0 0-1.7-1L14 3h-4l-.3 2.6a7.5 7.5 0 0 0-1.7 1l-2.4-1-2 3.4L5.6 11a7.5 7.5 0 0 0 0 2l-2 1.5 2 3.4 2.4-1a7.5 7.5 0 0 0 1.7 1L10 21h4l.3-2.6a7.5 7.5 0 0 0 1.7-1l2.4 1 2-3.4z"/></svg>Settings</div>
+          </div>
+        </div>
+        <div class="sl3-top" aria-hidden="true">
+          <div class="sl3t-row">
+            <div class="sl3t-title"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 13h8V3H3zM13 21h8V3h-8zM3 21h8v-6H3z"/></svg><b>Dashboard</b></div>
+            <div class="sl3t-actions"><span class="newc">+ New campaign</span><span class="dts">Last 7 days &#8964;</span></div>
+          </div>
+        </div>
+
+
+
+    <div class="sl-panel act" data-t="performance">
+    <div class="slx">
+      <div class="slx-stage">
+                        <div class="slx-pane on pfull" data-nav="outbound" data-title="LinkedIn Distribution">
+          <div class="sl-stage">
+            <div class="dbv dbv-lkd">
+              <div class="lkd-top">
+                <span class="lkd-pills"><span class="lp on"><svg viewBox="0 0 24 24" fill="none"><rect width="24" height="24" rx="5" fill="#0a66c2"/><circle cx="7" cy="7" r="1.5" fill="#fff"/><path d="M7 10.5V17M11.5 17v-3.4a2.1 2.1 0 0 1 4.2 0V17" stroke="#fff" stroke-width="2.1" stroke-linecap="round"/></svg>LinkedIn Ads</span><span class="lp">Sync to CRM</span><span class="lp">Export to CSV</span></span>
+                <span class="lkd-ready"><span class="rd"></span>64 Ready</span>
+                <span class="lkd-act"><span class="lkd-sync"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 0 1-15.5 6.2M3 12a9 9 0 0 1 15.5-6.2M3 17v-5h5M21 7v5h-5"/></svg>Sync to LinkedIn</span><span class="lkd-live"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 15c-1 3-1 5-1 5s2 0 5-1m-4-4a12 12 0 0 1 9-9c3 0 4 1 4 4a12 12 0 0 1-9 9zm0 0-3-1a8 8 0 0 1 2-3"/></svg>Go live</span></span>
+              </div>
+              <div class="lkd-tbl">
+                <div class="lkd-hd"><span>Name</span><span>Status</span><span>Bidding &amp; budget</span><span>Live</span></div>
+                <div class="lkd-r" style="--i:0"><span class="lkd-co"><span class="ci" style="background:#0b0c10">A</span>Abnormal AI</span><span class="lkd-syn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Synced</span><span class="lkd-bid"><span class="cur">$</span>&pound;10 CPM <em>(Max &pound;10/day)</em></span><span class="lkd-tog"><span class="knob"></span></span></div>
+                <div class="lkd-r" style="--i:1"><span class="lkd-co"><span class="ci" style="background:#1b45ff">AI</span>AlphaSense</span><span class="lkd-syn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Synced</span><span class="lkd-bid"><span class="cur">$</span>&pound;10 CPM <em>(Max &pound;10/day)</em></span><span class="lkd-tog on"><span class="knob"></span></span></div>
+                <div class="lkd-r sel" style="--i:2"><span class="lkd-co"><span class="cb"></span><span class="ci" style="background:#ff4e1b">AD</span>AppDynamics</span><span class="lkd-syn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Synced</span><span class="lkd-bid"><span class="cur">$</span>&pound;10 CPM <em>(Max &pound;10/day)</em></span><span class="lkd-tog on"><span class="knob"></span></span></div>
+                <div class="lkd-r" style="--i:3"><span class="lkd-co"><span class="ci" style="background:#2557d6">At</span>Atlassian</span><span class="lkd-syn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Synced</span><span class="lkd-bid"><span class="cur">$</span>&pound;10 CPM <em>(Max &pound;10/day)</em></span><span class="lkd-tog on"><span class="knob"></span></span></div>
+                <div class="lkd-r" style="--i:4"><span class="lkd-co"><span class="ci" style="background:#0b0c10">B</span>Backbase</span><span class="lkd-syn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Synced</span><span class="lkd-bid"><span class="cur">$</span>&pound;10 CPM <em>(Max &pound;10/day)</em></span><span class="lkd-tog on"><span class="knob"></span></span></div>
+                <div class="lkd-r" style="--i:5"><span class="lkd-co"><span class="ci" style="background:#4b2ee0">Be</span>Benchling</span><span class="lkd-syn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Synced</span><span class="lkd-bid"><span class="cur">$</span>&pound;10 CPM <em>(Max &pound;10/day)</em></span><span class="lkd-tog"><span class="knob"></span></span></div>
+              </div>
+              <div class="lkd-modal">
+                <div class="lkm-seg"><span class="on">Presets</span><span>Manual</span></div>
+                <div class="lkm-h">Choose a preset</div>
+                <div class="lkm-opt on"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v10M9.5 14.5c0 1.4 1.1 2 2.5 2s2.5-.6 2.5-1.9c0-2.6-4.8-1.5-4.8-4 0-1.2 1-1.8 2.3-1.8s2.3.6 2.3 1.8"/></svg></span><div class="lkm-tx"><b>Cost-Efficient</b><span>For tight budgets or long campaigns.</span></div><span class="lkm-rad on"></span></div>
+                <div class="lkm-opt"><span class="ic b"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M5 8l7-5 7 5M4 12h4l1.5 5h5L20 12h0"/></svg></span><div class="lkm-tx"><b>Standard <em>(Recommended)</em></b><span>Balanced reach and efficiency.</span></div><span class="lkm-rad"></span></div>
+                <div class="lkm-opt"><span class="ic y"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h6l-1 8 9-12h-6z"/></svg></span><div class="lkm-tx"><b>Fast Delivery</b><span>Best when timing matters most.</span></div><span class="lkm-rad"></span></div>
+                <div class="lkm-foot"><span class="cancel">Cancel</span><span class="save">Save</span></div>
+              </div>
+              <div class="dbv-toast" style="top:auto;bottom:18px;--td:4.6s"><span class="ai"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span><div><b>Synced to LinkedIn</b><span>64 campaigns &#183; live now</span></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    
+
+
+      </div>
+    </div>
+
+<style>
+  .sl3-stage{position:relative;width:100%;aspect-ratio:1180/600;overflow:hidden;background:linear-gradient(135deg,#fdfbf7,#f6f0e7 54%,#fefdfb);container-type:inline-size;--blue:#1b45ff;--orange:#ff4e1b;--ink:#0b0c10;--gray-700:#454a56;--gray-500:#6a7080;--gray-400:#9aa0ad;--line:rgba(11,12,16,.10);--font-serif:"Spectral",Georgia,"Times New Roman",serif;--font-sans:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;}
+  .sl3-stage .sl-panel[hidden]{display:none;}
+  .sl3-stage .sl-stage{position:relative;height:33.7057cqw;border-radius:1.926cqw;overflow:hidden;background:#eceae4;border:0.0963cqw solid rgba(11,12,16,.05);box-shadow:inset 0 0.0963cqw 0 rgba(255,255,255,.7);transition:box-shadow .3s ease;}
+  .sl3-stage .sl3-screen{position:absolute;left:6%;right:6%;top:3.8983cqw;bottom:0;background:#fff;border:0.0847cqw solid rgba(11,12,16,.14);border-bottom:none;box-shadow:0 3.0508cqw 7.6271cqw rgba(11,12,16,.3);overflow:hidden;container-type:inline-size;}
+  .sl3-stage .slx{display:block;background:linear-gradient(160deg,#fbf9f5,#f3eee5 62%,#ece4d5);border:0.0963cqw solid var(--line);border-radius:0.963cqw;padding:clamp(1.5408cqw,2cqw,2.5039cqw);}
+  .sl3-stage .slx-stage{position:relative;background:transparent;border:none;border-radius:0.963cqw;min-height:46.225cqw;overflow:hidden;}
+  .sl3-stage .slx-pane{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;opacity:0;visibility:hidden;transform:translateY(1.1556cqw);transition:opacity .55s ease,visibility .55s,transform .6s cubic-bezier(.22,.61,.36,1);}
+  .sl3-stage .slx-pane.on{opacity:1;visibility:visible;transform:translateY(0);}
+  .sl3-stage .slx-pane .sl-stage{position:relative;width:min(53.9291cqw,88%);height:42.7581cqw;background:transparent;border:none;box-shadow:none;}
+  .sl3-stage .sl3-screen::before{content:"";position:absolute;inset:0;background:#f6f7f9;}
+  .sl3-stage .sl3-screen::after{content:"";position:absolute;inset:0;z-index:6;pointer-events:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");opacity:.04;mix-blend-mode:multiply;}
+  .sl3-stage .sl3-chrome{display:none;position:absolute;top:0;left:0;right:0;height:3.4669cqw;background:#fff;border-bottom:0.0963cqw solid var(--line);align-items:center;gap:0.6741cqw;padding:0 1.3482cqw;z-index:7;}
+  .sl3-stage .sl3-chrome i{width:0.8667cqw;height:0.8667cqw;border-radius:50%;background:#e7e9f0;flex:none;}
+  .sl3-stage .sl3-chrome i:nth-child(1){background:#ff5f57;}.sl3-chrome i:nth-child(2){background:#febc2e;}.sl3-chrome i:nth-child(3){background:#28c840;}
+  .sl3-stage .sl3-chrome .url{margin:0 auto;background:#f4f6fa;border:0.0963cqw solid var(--line);font-size:1.0112cqw;color:var(--gray-500);padding:0.3852cqw 4.2373cqw;font-weight:600;line-height:1.4;}
+  .sl3-stage .sl3-side{position:absolute;left:0;top:0;bottom:0;width:20.416cqw;background:#fbfcfe;border-right:0.0963cqw solid var(--line);padding:1.1556cqw 1.1556cqw 0.963cqw;z-index:4;display:flex;flex-direction:column;overflow:hidden;transition:opacity .4s ease,visibility .4s;}
+  .sl3-stage .sl3s-acct{display:flex;align-items:center;gap:0.8667cqw;padding:0.6741cqw 0.8667cqw;border:0.0963cqw solid var(--line);background:#fff;margin-bottom:1.3482cqw;}
+  .sl3-stage .sl3s-acct .nm{line-height:1.2;min-width:0;}
+  .sl3-stage .sl3s-acct .nm b{display:block;font-size:1.1556cqw;font-weight:800;color:var(--ink);}
+  .sl3-stage .sl3s-acct .nm span{font-size:0.9149cqw;color:var(--gray-500);}
+  .sl3-stage .sl3s-acct .cv{margin-left:auto;color:var(--gray-400);font-size:1.0593cqw;flex:none;}
+  .sl3-stage .sl3s-nav{display:flex;align-items:center;gap:1.0593cqw;font-size:1.1556cqw;font-weight:600;color:var(--gray-700);padding:0.7704cqw 0.963cqw;}
+  .sl3-stage .sl3s-nav svg{width:1.4445cqw;height:1.4445cqw;flex:none;stroke:var(--gray-400);}
+  .sl3-stage .sl3s-nav.on{background:#eef2fb;color:var(--ink);font-weight:700;}
+  .sl3-stage .sl3s-nav.on svg{stroke:var(--blue);}
+  .sl3-stage .sl3s-foot{margin-top:auto;border-top:0.0963cqw solid var(--line);padding-top:0.6741cqw;}
+  .sl3-stage .sl3s-nav.sm{font-size:1.0593cqw;color:var(--gray-500);padding:0.5778cqw 0.963cqw;}
+  .sl3-stage .sl3-top{position:absolute;top:0;left:20.416cqw;right:0;height:5.5855cqw;background:#fff;border-bottom:0.0963cqw solid var(--line);z-index:4;padding:0 2.3112cqw;display:flex;flex-direction:column;justify-content:center;transition:opacity .4s ease,visibility .4s;}
+  .sl3-stage .sl3t-row{display:flex;align-items:center;gap:1.1556cqw;}
+  .sl3-stage .sl3t-title{display:flex;align-items:center;gap:0.8667cqw;font-size:1.6371cqw;font-weight:800;color:var(--ink);letter-spacing:-.01em;}
+  .sl3-stage .sl3t-title svg{width:1.7334cqw;height:1.7334cqw;flex:none;stroke:var(--blue);}
+  .sl3-stage .sl3t-actions{margin-left:auto;display:flex;gap:0.8667cqw;align-items:center;flex:none;}
+  .sl3-stage .sl3t-actions .newc{background:var(--blue);color:#fff;font-size:1.0593cqw;font-weight:700;padding:0.6741cqw 1.2519cqw;white-space:nowrap;}
+  .sl3-stage .sl3t-actions .dts{border:0.0963cqw solid var(--line);font-size:1.0593cqw;font-weight:600;color:var(--gray-700);padding:0.6741cqw 1.0593cqw;display:flex;gap:0.6741cqw;align-items:center;white-space:nowrap;}
+    .sl3-stage .sl3-side, .sl3-stage .sl3-top{display:none;}
+  .sl3-stage .dbv{position:absolute;inset:0;display:flex;flex-direction:column;padding:1.5408cqw 2.1186cqw 1.3482cqw;}
+  .sl3-stage .dbv-toast{position:absolute;top:5.0077cqw;right:2.1186cqw;z-index:3;display:flex;gap:0.8667cqw;align-items:flex-start;background:#fff;border:0.0963cqw solid var(--line);box-shadow:0 0.963cqw 2.5039cqw rgba(11,12,16,.16);padding:0.963cqw 1.2519cqw;max-width:24.0755cqw;opacity:0;}
+  .sl3-stage .slx-pane.on .dbv-toast{animation:sl3DbvToast .55s cubic-bezier(.2,.7,.3,1.1) var(--td,3s) both;}
+  .sl3-stage .dbv-toast .ai{width:2.1186cqw;height:2.1186cqw;flex:none;display:flex;align-items:center;justify-content:center;background:#e9f9ef;color:#15803d;}
+  .sl3-stage .dbv-toast .ai svg{width:1.1556cqw;height:1.1556cqw;}
+  .sl3-stage .dbv-toast b{display:block;font-size:1.0593cqw;color:var(--ink);line-height:1.3;}
+  .sl3-stage .dbv-toast span{font-size:0.9149cqw;color:var(--gray-500);}
+  @keyframes sl3DbvToast{from{opacity:0;transform:translateY(-0.963cqw) scale(.97);}to{opacity:1;transform:none;}}
+  @keyframes sl3DbvIn{from{opacity:0;transform:translateY(0.8667cqw);}to{opacity:1;transform:none;}}
+  .sl3-stage .dbv{background:#f7f8fa;padding:1.5408cqw 1.926cqw 1.3482cqw;}
+  .sl3-stage .dbv-toast{top:1.3482cqw;right:1.7334cqw;}
+  @keyframes sl3EvtPulse{0%,100%{box-shadow:0 0 0 0 rgba(27,69,255,0);}50%{box-shadow:0 0 0 0.5778cqw rgba(27,69,255,.13);}}
+  .sl3-stage .dbv-lkd{padding:1.3482cqw 1.926cqw 1.5408cqw;display:flex;flex-direction:column;overflow:hidden;}
+  .sl3-stage .lkd-top{display:flex;align-items:center;gap:1.1556cqw;margin-bottom:1.1556cqw;}
+  .sl3-stage .lkd-pills{display:flex;align-items:center;gap:0.6741cqw;}
+  .sl3-stage .lkd-pills .lp{display:flex;align-items:center;gap:0.6741cqw;font-size:1.0593cqw;font-weight:700;color:var(--gray-500);border:0.0963cqw solid var(--line);background:#fff;padding:0.5778cqw 1.0593cqw;white-space:nowrap;}
+  .sl3-stage .lkd-pills .lp svg{width:1.2519cqw;height:1.2519cqw;}
+  .sl3-stage .lkd-pills .lp.on{color:var(--ink);box-shadow:inset 0 -0.1926cqw 0 var(--blue);}
+  .sl3-stage .lkd-ready{display:flex;align-items:center;gap:0.5778cqw;font-size:1.0112cqw;font-weight:700;color:#15803d;border:0.0963cqw solid #b6e3c8;background:#eafaf0;padding:0.4815cqw 0.963cqw;border-radius:96.2057cqw;}
+  .sl3-stage .lkd-ready .rd{width:0.5778cqw;height:0.5778cqw;border-radius:50%;background:#22c55e;}
+  .sl3-stage .lkd-act{margin-left:auto;display:flex;gap:0.8667cqw;}
+  .sl3-stage .lkd-sync, .sl3-stage .lkd-live{display:flex;align-items:center;gap:0.6741cqw;font-size:1.0593cqw;font-weight:700;padding:0.7704cqw 1.3482cqw;white-space:nowrap;}
+  .sl3-stage .lkd-sync{border:0.0963cqw solid var(--line);background:#fff;color:var(--gray-700);}
+  .sl3-stage .lkd-sync svg{width:1.2519cqw;height:1.2519cqw;}
+  .sl3-stage .lkd-live{background:var(--blue);color:#fff;}
+  .sl3-stage .lkd-live svg{width:1.2519cqw;height:1.2519cqw;}
+  .sl3-stage .slx-pane.on .lkd-live{animation:sl3EvtPulse 2.4s ease 1.6s infinite;}
+  .sl3-stage .lkd-tbl{flex:1;border:0.0963cqw solid var(--line);background:#fff;display:flex;flex-direction:column;min-height:0;overflow:hidden;}
+  .sl3-stage .lkd-hd, .sl3-stage .lkd-r{display:grid;grid-template-columns:1.7fr .8fr 1.3fr 5.2003cqw;align-items:center;gap:1.1556cqw;padding:0 1.5408cqw;}
+  .sl3-stage .lkd-hd{height:3.6595cqw;border-bottom:0.0963cqw solid var(--line);background:#fafbfd;flex:none;}
+  .sl3-stage .lkd-hd span{font-size:0.8186cqw;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--gray-400);}
+  .sl3-stage .lkd-r{flex:1;border-bottom:0.0963cqw solid #f1f3f8;opacity:0;}
+  .sl3-stage .slx-pane.on .lkd-r{animation:sl3DbvIn .42s ease both;animation-delay:calc(.1s + var(--i,0)*.07s);}
+  .sl3-stage .lkd-r.sel{background:#eff3ff;box-shadow:inset 0.1926cqw 0 0 var(--blue);}
+  .sl3-stage .lkd-co{display:flex;align-items:center;gap:0.963cqw;font-size:1.1556cqw;font-weight:600;color:var(--ink);min-width:0;}
+  .sl3-stage .lkd-co .ci{width:2.3112cqw;height:2.3112cqw;flex:none;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:0.8186cqw;font-weight:800;}
+  .sl3-stage .lkd-co .cb{width:1.3482cqw;height:1.3482cqw;flex:none;border-radius:0.2889cqw;background:var(--blue);position:relative;}
+  .sl3-stage .lkd-co .cb::after{content:"";position:absolute;left:0.3852cqw;top:0.1445cqw;width:0.3852cqw;height:0.6741cqw;border:0.1541cqw solid #fff;border-top:none;border-left:none;transform:rotate(42deg);}
+  .sl3-stage .lkd-syn{display:inline-flex;align-items:center;gap:0.4815cqw;font-size:1.0112cqw;font-weight:700;color:#15803d;border:0.0963cqw solid #b6e3c8;border-radius:96.2057cqw;padding:0.2889cqw 0.963cqw;width:fit-content;}
+  .sl3-stage .lkd-syn svg{width:0.963cqw;height:0.963cqw;}
+  .sl3-stage .lkd-bid{display:flex;align-items:center;gap:0.6741cqw;font-size:1.0593cqw;font-weight:600;color:var(--ink);}
+  .sl3-stage .lkd-bid .cur{width:1.7334cqw;height:1.7334cqw;flex:none;border-radius:0.3852cqw;background:#e9f9ef;color:#15803d;display:flex;align-items:center;justify-content:center;font-size:1.0593cqw;font-weight:800;}
+  .sl3-stage .lkd-bid em{font-style:normal;color:var(--gray-400);font-weight:500;font-size:0.963cqw;}
+  .sl3-stage .lkd-tog{width:3.2743cqw;height:1.8297cqw;border-radius:96.2057cqw;background:#d7dce6;position:relative;flex:none;transition:background .3s ease;}
+  .sl3-stage .lkd-tog .knob{position:absolute;top:0.1926cqw;left:0.1926cqw;width:1.4445cqw;height:1.4445cqw;border-radius:50%;background:#fff;box-shadow:0 0.0963cqw 0.1926cqw rgba(0,0,0,.2);transition:left .3s ease;}
+  .sl3-stage .lkd-tog.on{background:var(--blue);}
+  .sl3-stage .lkd-tog.on .knob{left:1.6371cqw;}
+  .sl3-stage .lkd-modal{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:31.3945cqw;background:#fff;border:0.0963cqw solid var(--line);border-radius:1.1556cqw;box-shadow:0 2.5039cqw 6.1633cqw rgba(11,12,16,.28);padding:1.2519cqw;z-index:4;opacity:0;}
+  .sl3-stage .slx-pane.on .lkd-modal{animation:sl3LkmSeq 3.4s ease 1s both;}
+  .sl3-stage .slx-pane.on .lkm-foot .save{animation:sl3BtnPress .5s ease 2.4s both;}
+  .sl3-stage .slx-pane.on .lkd-sync{animation:sl3BtnPress .55s ease 3.7s both;}
+  @keyframes sl3LkmSeq{0%{opacity:0;transform:translate(-50%,-44%) scale(.96);}14%{opacity:1;transform:translate(-50%,-50%) scale(1);}56%{opacity:1;transform:translate(-50%,-50%) scale(1);}72%{opacity:0;transform:translate(-50%,-50%) scale(.99);}100%{opacity:0;transform:translate(-50%,-50%) scale(.99);}}
+  @keyframes sl3BtnPress{0%,100%{transform:scale(1);}42%{transform:scale(.9);}}
+  .sl3-stage .lkm-seg{display:flex;background:#f1f3f8;border-radius:0.7704cqw;padding:0.2889cqw;margin-bottom:0.963cqw;}
+  .sl3-stage .lkm-seg span{flex:1;text-align:center;font-size:1.0593cqw;font-weight:700;color:var(--gray-500);padding:0.5778cqw;border-radius:0.5778cqw;}
+  .sl3-stage .lkm-seg span.on{background:#fff;color:var(--ink);box-shadow:0 0.0963cqw 0.2889cqw rgba(11,12,16,.12);}
+  .sl3-stage .lkm-h{font-size:1.0593cqw;font-weight:800;color:var(--ink);margin-bottom:0.6741cqw;}
+  .sl3-stage .lkm-opt{display:flex;align-items:center;gap:1.0593cqw;border:0.0963cqw solid var(--line);border-radius:0.8667cqw;padding:0.8667cqw 1.0593cqw;margin-bottom:0.6741cqw;}
+  .sl3-stage .lkm-opt.on{border-color:var(--blue);box-shadow:0 0 0 0.0963cqw var(--blue) inset;}
+  .sl3-stage .lkm-opt .ic{width:2.3112cqw;height:2.3112cqw;flex:none;border-radius:0.6741cqw;background:#eef2fb;color:var(--gray-700);display:flex;align-items:center;justify-content:center;}
+  .sl3-stage .lkm-opt .ic svg{width:1.4445cqw;height:1.4445cqw;}
+  .sl3-stage .lkm-opt .ic.b{background:#eaf0ff;color:var(--blue);}
+  .sl3-stage .lkm-opt .ic.y{background:#fff6df;color:#b45309;}
+  .sl3-stage .lkm-tx{flex:1;}
+  .sl3-stage .lkm-tx b{display:block;font-size:1.1556cqw;font-weight:700;color:var(--ink);}
+  .sl3-stage .lkm-tx b em{font-style:normal;color:var(--gray-400);font-weight:600;}
+  .sl3-stage .lkm-tx span{font-size:0.963cqw;color:var(--gray-500);line-height:1.4;}
+  .sl3-stage .lkm-rad{width:1.5408cqw;height:1.5408cqw;flex:none;border-radius:50%;border:0.1926cqw solid #c9cfdb;margin-top:0.1926cqw;}
+  .sl3-stage .lkm-rad.on{border-color:var(--blue);background:radial-gradient(circle,var(--blue) 0 40%,#fff 46%);}
+  .sl3-stage .lkm-foot{display:flex;align-items:center;justify-content:flex-end;gap:0.963cqw;margin-top:0.2889cqw;}
+  .sl3-stage .lkm-foot .cancel{font-size:1.0593cqw;font-weight:600;color:var(--gray-500);}
+  .sl3-stage .lkm-foot .save{font-size:1.0593cqw;font-weight:700;color:#fff;background:var(--ink);padding:0.6741cqw 1.5408cqw;border-radius:0.6741cqw;}
+    .sl3-stage .slx-pane.on .lkd-r, .sl3-stage .slx-pane.on .lkd-live{animation:none;opacity:1;transform:none;}
+    .sl3-stage .slx-pane.on .lkd-modal{animation:none;opacity:1;}
+    .sl3-stage .lkd-modal{transform:translate(-50%,-50%);}
+</style>
+
+<script>
+(function(){
+  // sl3 platform frame driver — sidebar nav, header title, and browser chrome follow the active pane
+  var screen = document.querySelector('.sl3-stage .sl3-screen'); if(!screen) return;
+  var titleEl = screen.querySelector('.sl3t-title b');
+  var urlEl = screen.querySelector('.sl3-chrome .url');
+  var navs = [].slice.call(screen.querySelectorAll('.sl3s-nav[data-nav]'));
+  var topEl = screen.querySelector('.sl3-top');
+  function setc(el, cls, want){ if(el && el.classList.contains(cls) !== want) el.classList.toggle(cls, want); }
+  function settxt(el, t){ if(el && el.textContent !== t) el.textContent = t; }
+  function apply(){
+    var panel = null;
+    [].forEach.call(screen.querySelectorAll('.sl-panel'), function(p){ if(!p.hidden) panel = p; });
+    var pane = panel ? panel.querySelector('.slx-pane.on') : null;
+    if(!pane) return;
+    var bws = pane.classList.contains('bws');
+    setc(screen, 'bws-on', bws);
+    if(bws){ settxt(urlEl, pane.getAttribute('data-url') || 'linkedin.com'); return; }
+    var nav = (pane.getAttribute('data-nav') || 'dashboard').toLowerCase();
+    navs.forEach(function(n){ setc(n, 'on', n.getAttribute('data-nav') === nav); });
+    settxt(titleEl, pane.getAttribute('data-title') || 'Dashboard');
+    if(topEl) setc(topEl, 'notabs', pane.getAttribute('data-notabs') === '1');
+  }
+  var mo = new MutationObserver(function(){ apply(); });
+  mo.observe(screen, { subtree: true, attributes: true, attributeFilter: ['class', 'hidden'] });
+  apply();
+})();
+</script>
