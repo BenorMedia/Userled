@@ -1,0 +1,300 @@
+<!-- ============================================================
+     Connect Your Stack — Events card (.sl3-stage) Webflow Embed
+     Fluid: width:100% of parent, height locked to the original
+     1180:600 design ratio. All internal sizing uses container-query
+     units (cqw) nested two levels deep (.sl3-stage -> .sl3-screen),
+     so the whole browser-window mockup scales with the Embed box.
+     Self-contained: only the always-reachable "events" pane is kept —
+     the other 3 tab variants (sales/performance/operations) had no
+     switcher included in this export and were unreachable, so they
+     were dropped to keep this lean.
+     This pane still auto-advances every 12s through its 3 states
+     (event page / invite email / recap email).
+     UPDATED: right-hand caption list (.slx-list — "Make it personal" /
+     "Fill the room" / "Follow up, automatically") removed. .slx-stage
+     now spans full width. Item-click switching is gone since its
+     triggers were removed; autoplay cycle still runs.
+     ============================================================ -->
+<div class="sl3-stage">
+      <div class="sl3-screen">
+        <div class="sl3-chrome" aria-hidden="true"><i></i><i></i><i></i><span class="url">linkedin.com/in/wendy-barrie</span></div>
+        <div class="sl3-side" aria-hidden="true">
+          <div class="sl3s-acct"><span class="u">U</span><div class="nm"><b>Userled</b><span>Aaron Carpenter</span></div><span class="cv">&#8964;</span></div>
+          <div class="sl3s-nav on" data-nav="dashboard"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 13h8V3H3zM13 21h8V3h-8zM3 21h8v-6H3z"/></svg>Dashboard</div>
+          <div class="sl3s-nav" data-nav="accounts"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21h16M5 21V6l7-3 7 3v15M9 9h0M9 13h0M15 9h0M15 13h0M10 21v-4h4v4"/></svg>Accounts</div>
+          <div class="sl3s-nav" data-nav="outbound"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg>Campaigns</div>
+          <div class="sl3s-nav" data-nav="brand"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3s6 6 6 10a6 6 0 0 1-12 0c0-4 6-10 6-10z"/></svg>Brand</div>
+          <div class="sl3s-nav" data-nav="library"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 9 5-9 5-9-5 9-5zM3 13l9 5 9-5"/></svg>Library</div>
+          <div class="sl3s-foot">
+            <div class="sl3s-nav sm" data-nav="helpdocs"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.2a2.5 2.5 0 1 1 3.5 2.3c-.8.4-1 .8-1 1.6M12 17h0"/></svg>Help Docs</div>
+            <div class="sl3s-nav sm" data-nav="integrations"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 17H7a5 5 0 0 1 0-10h2M15 7h2a5 5 0 0 1 0 10h-2M8 12h8"/></svg>Integrations</div>
+            <div class="sl3s-nav sm" data-nav="settings"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 13a7.5 7.5 0 0 0 0-2l2-1.5-2-3.4-2.4 1a7.5 7.5 0 0 0-1.7-1L14 3h-4l-.3 2.6a7.5 7.5 0 0 0-1.7 1l-2.4-1-2 3.4L5.6 11a7.5 7.5 0 0 0 0 2l-2 1.5 2 3.4 2.4-1a7.5 7.5 0 0 0 1.7 1L10 21h4l.3-2.6a7.5 7.5 0 0 0 1.7-1l2.4 1 2-3.4z"/></svg>Settings</div>
+          </div>
+        </div>
+        <div class="sl3-top" aria-hidden="true">
+          <div class="sl3t-row">
+            <div class="sl3t-title"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 13h8V3H3zM13 21h8V3h-8zM3 21h8v-6H3z"/></svg><b>Dashboard</b></div>
+            <div class="sl3t-actions"><span class="newc">+ New campaign</span><span class="dts">Last 7 days &#8964;</span></div>
+          </div>
+        </div>
+
+
+
+    
+
+    <div class="sl-panel act" data-t="events">
+    <div class="slx">
+      <div class="slx-stage">
+                                <div class="slx-pane on bws" data-url="userled.io/events/ai-abm-conference">
+          <div class="sl-stage">
+            <div class="esite">
+              <div class="esite-nav"><span class="esite-logo"><span class="nw" style="background:var(--yellow);color:var(--ink)">u</span>Userled</span><span class="esite-links"><span>Agenda</span><span>Speakers</span><span class="esite-reg">Register</span></span></div>
+              <div class="esite-hero">
+                <span class="esite-badge">Personalized for Brightwave</span>
+                <div class="esite-h">See you there, Maya.</div>
+                <div class="esite-sub">Userled AI + ABM Conference &#183; Jun 18 &#183; San Francisco</div>
+                <span class="esite-cta">Reserve my seat</span>
+              </div>
+              <div class="esite-ag">
+                <div class="ea" style="--i:0"><span class="t">6:00 PM</span><b>Keynote: ABM in the AI era</b></div>
+                <div class="ea" style="--i:1"><span class="t">7:15 PM</span><b>Roundtable + dinner</b></div>
+                <div class="ea" style="--i:2"><span class="t">8:30 PM</span><b>Networking &amp; drinks</b></div>
+              </div>
+              <div class="dbv-toast bl" style="top:auto;bottom:20px"><span class="ai"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span><div><b>Event page published</b><span>userled.io/events/ai-abm</span></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="slx-pane bws" data-url="mail.google.com">
+          <div class="sl-stage">
+            <div class="ebm">
+              <div class="ebm-top"><span class="ebm-burger"><i></i><i></i><i></i></span><span class="ebm-logo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>Mail</span><span class="ebm-search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="6"/><path d="M21 21l-4.6-4.6"/></svg>Search mail</span><span class="ebm-acct"></span></div>
+              <div class="ebm-rail"><span class="ebm-compose"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h4L20 8l-4-4L4 16zM14 6l4 4"/></svg>Compose</span><span class="ebm-fold on"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 13h4l2 3h4l2-3h4M5 13 7 5h10l2 8v6H5z"/></svg>Inbox<em>24</em></span><span class="ebm-fold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 3l2.6 5.6 6 .7-4.4 4.1 1.2 6L12 17l-5.4 2.4 1.2-6L3.4 9.3l6-.7z"/></svg>Starred</span><span class="ebm-fold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l17 8-17 8 3-8z"/></svg>Sent</span><span class="ebm-fold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3h14v18l-7-4-7 4z"/></svg>Drafts</span></div>
+              <div class="ebm-read">
+                <div class="ebm-subj">You&#8217;re invited: Userled AI + ABM Conference<span class="ebm-lab">Events</span></div>
+                <div class="ebm-from"><span class="av nw" style="background:var(--yellow);color:var(--ink)">u</span><div class="who"><b>Userled Events</b><span>events@userled.io &#183; to me</span></div><span class="ebm-time">9:24 AM</span></div>
+                <div class="ebm-mail">
+                  <div class="ebm-body">
+                    <div class="ebm-hi">Hi Maya,</div>
+                    <div class="ebm-p i1">You&#8217;re invited to the Userled AI + ABM Conference &mdash; a half-day on running ABM with AI, built for revenue teams like Brightwave.</div>
+                    <div class="ebm-ln i2"></div>
+                    <div class="ebm-ln s i3"></div>
+                    <div class="ebm-thumb paste"><div class="et-bar"><i></i><i></i><i></i><span class="et-url">userled.io/events/ai-abm</span></div><div class="et-body"><span class="et-badge">Personalized</span><div class="et-h">Userled AI + ABM Conference</div><div class="et-sub">See you there, Maya &#183; Jun 18, San Francisco</div><span class="et-btn">Reserve my seat</span></div></div>
+                    <div class="ebm-foot">Userled &#183; events@userled.io</div>
+                  </div>
+                </div>
+              </div>
+              <div class="dbv-toast" style="top:auto;bottom:20px;--td:2.7s"><span class="ai"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l16 8-16 8 3-8z"/></svg></span><div><b>Invite sent</b><span>248 priority contacts</span></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="slx-pane bws" data-url="mail.google.com">
+          <div class="sl-stage">
+            <div class="ebm">
+              <div class="ebm-top"><span class="ebm-burger"><i></i><i></i><i></i></span><span class="ebm-logo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>Mail</span><span class="ebm-search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="6"/><path d="M21 21l-4.6-4.6"/></svg>Search mail</span><span class="ebm-acct"></span></div>
+              <div class="ebm-rail"><span class="ebm-compose"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h4L20 8l-4-4L4 16zM14 6l4 4"/></svg>Compose</span><span class="ebm-fold on"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 13h4l2 3h4l2-3h4M5 13 7 5h10l2 8v6H5z"/></svg>Inbox<em>26</em></span><span class="ebm-fold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 3l2.6 5.6 6 .7-4.4 4.1 1.2 6L12 17l-5.4 2.4 1.2-6L3.4 9.3l6-.7z"/></svg>Starred</span><span class="ebm-fold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l17 8-17 8 3-8z"/></svg>Sent</span><span class="ebm-fold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3h14v18l-7-4-7 4z"/></svg>Drafts</span></div>
+              <div class="ebm-read">
+                <div class="ebm-subj">Thanks for joining us, Maya<span class="ebm-lab">Events</span></div>
+                <div class="ebm-from"><span class="av nw" style="background:var(--yellow);color:var(--ink)">u</span><div class="who"><b>Userled Events</b><span>events@userled.io &#183; to me</span></div><span class="ebm-time">2:05 PM</span></div>
+                <div class="ebm-mail">
+                  <div class="ebm-body nohero">
+                    <div class="ebm-hi">Hi Maya,</div>
+                    <div class="ebm-p i1">Thanks for coming to the Userled AI + ABM Conference &mdash; here&#8217;s your personalized recap and what to explore next.</div>
+                    <div class="ebm-ln s i2"></div>
+                    <span class="ebm-recap"><span class="um">u</span><div class="rx"><b>Your recap &#183; Userled AI + ABM Conference</b><em>3 sessions attended &#183; 2 intros made</em></div></span>
+                    <span class="ebm-cta">Book a follow-up</span>
+                    <div class="ebm-foot">Userled &#183; events@userled.io</div>
+                  </div>
+                </div>
+              </div>
+              <div class="dbv-toast" style="top:auto;bottom:20px;--td:1.4s"><span class="ai"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span><div><b>Recap sent &#183; Maya Patel</b><span>opened &#183; 2 link clicks</span></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+      </div>
+    </div>
+
+<style>
+  .sl3-stage{position:relative;width:100%;aspect-ratio:1180/600;overflow:hidden;background:linear-gradient(135deg,#fdfbf7,#f6f0e7 54%,#fefdfb);container-type:inline-size;--blue:#1b45ff;--orange:#ff4e1b;--yellow:#ffd83a;--ink:#0b0c10;--gray-700:#454a56;--gray-500:#6a7080;--gray-400:#9aa0ad;--line:rgba(11,12,16,.10);--font-serif:"Spectral",Georgia,"Times New Roman",serif;--font-sans:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;}
+  .sl3-stage .sl-panel[hidden]{display:none;}
+  .sl3-stage .sl-stage{position:relative;height:33.7057cqw;border-radius:1.926cqw;overflow:hidden;background:#eceae4;border:0.0963cqw solid rgba(11,12,16,.05);box-shadow:inset 0 0.0963cqw 0 rgba(255,255,255,.7);transition:box-shadow .3s ease;}
+  .sl3-stage .sl3-screen{position:absolute;left:6%;right:6%;top:3.8983cqw;bottom:0;background:#fff;border:0.0847cqw solid rgba(11,12,16,.14);border-bottom:none;box-shadow:0 3.0508cqw 7.6271cqw rgba(11,12,16,.3);overflow:hidden;container-type:inline-size;}
+  .sl3-stage .um{display:inline-flex;align-items:center;justify-content:center;width:1.926cqw;height:1.926cqw;border-radius:0.4815cqw;background:var(--yellow);color:var(--ink);font-weight:800;font-size:1.2519cqw;font-family:var(--font-serif);}
+  .sl3-stage .slx{display:block;background:linear-gradient(160deg,#fbf9f5,#f3eee5 62%,#ece4d5);border:0.0963cqw solid var(--line);border-radius:0.963cqw;padding:clamp(1.5408cqw,2cqw,2.5039cqw);}
+  .sl3-stage .slx-stage{position:relative;background:transparent;border:none;border-radius:0.963cqw;min-height:46.225cqw;overflow:hidden;}
+  .sl3-stage .slx-pane{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;opacity:0;visibility:hidden;transform:translateY(1.1556cqw);transition:opacity .55s ease,visibility .55s,transform .6s cubic-bezier(.22,.61,.36,1);}
+  .sl3-stage .slx-pane.on{opacity:1;visibility:visible;transform:translateY(0);}
+  .sl3-stage .slx-pane .sl-stage{position:relative;width:min(53.9291cqw,88%);height:42.7581cqw;background:transparent;border:none;box-shadow:none;}
+  .sl3-stage .sl3-screen::before{content:"";position:absolute;inset:0;background:#f6f7f9;}
+  .sl3-stage .sl3-screen::after{content:"";position:absolute;inset:0;z-index:6;pointer-events:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");opacity:.04;mix-blend-mode:multiply;}
+  .sl3-stage .sl3-chrome{display:none;position:absolute;top:0;left:0;right:0;height:3.4669cqw;background:#fff;border-bottom:0.0963cqw solid var(--line);align-items:center;gap:0.6741cqw;padding:0 1.3482cqw;z-index:7;}
+  .sl3-stage .sl3-chrome i{width:0.8667cqw;height:0.8667cqw;border-radius:50%;background:#e7e9f0;flex:none;}
+  .sl3-stage .sl3-chrome i:nth-child(1){background:#ff5f57;}.sl3-chrome i:nth-child(2){background:#febc2e;}.sl3-chrome i:nth-child(3){background:#28c840;}
+  .sl3-stage .sl3-chrome .url{margin:0 auto;background:#f4f6fa;border:0.0963cqw solid var(--line);font-size:1.0112cqw;color:var(--gray-500);padding:0.3852cqw 4.2373cqw;font-weight:600;line-height:1.4;}
+  .sl3-stage .sl3-side{position:absolute;left:0;top:0;bottom:0;width:20.416cqw;background:#fbfcfe;border-right:0.0963cqw solid var(--line);padding:1.1556cqw 1.1556cqw 0.963cqw;z-index:4;display:flex;flex-direction:column;overflow:hidden;transition:opacity .4s ease,visibility .4s;}
+  .sl3-stage .sl3s-acct{display:flex;align-items:center;gap:0.8667cqw;padding:0.6741cqw 0.8667cqw;border:0.0963cqw solid var(--line);background:#fff;margin-bottom:1.3482cqw;}
+  .sl3-stage .sl3s-acct .nm{line-height:1.2;min-width:0;}
+  .sl3-stage .sl3s-acct .nm b{display:block;font-size:1.1556cqw;font-weight:800;color:var(--ink);}
+  .sl3-stage .sl3s-acct .nm span{font-size:0.9149cqw;color:var(--gray-500);}
+  .sl3-stage .sl3s-acct .cv{margin-left:auto;color:var(--gray-400);font-size:1.0593cqw;flex:none;}
+  .sl3-stage .sl3s-nav{display:flex;align-items:center;gap:1.0593cqw;font-size:1.1556cqw;font-weight:600;color:var(--gray-700);padding:0.7704cqw 0.963cqw;}
+  .sl3-stage .sl3s-nav svg{width:1.4445cqw;height:1.4445cqw;flex:none;stroke:var(--gray-400);}
+  .sl3-stage .sl3s-nav.on{background:#eef2fb;color:var(--ink);font-weight:700;}
+  .sl3-stage .sl3s-nav.on svg{stroke:var(--blue);}
+  .sl3-stage .sl3s-foot{margin-top:auto;border-top:0.0963cqw solid var(--line);padding-top:0.6741cqw;}
+  .sl3-stage .sl3s-nav.sm{font-size:1.0593cqw;color:var(--gray-500);padding:0.5778cqw 0.963cqw;}
+  .sl3-stage .sl3-top{position:absolute;top:0;left:20.416cqw;right:0;height:5.5855cqw;background:#fff;border-bottom:0.0963cqw solid var(--line);z-index:4;padding:0 2.3112cqw;display:flex;flex-direction:column;justify-content:center;transition:opacity .4s ease,visibility .4s;}
+  .sl3-stage .sl3t-row{display:flex;align-items:center;gap:1.1556cqw;}
+  .sl3-stage .sl3t-title{display:flex;align-items:center;gap:0.8667cqw;font-size:1.6371cqw;font-weight:800;color:var(--ink);letter-spacing:-.01em;}
+  .sl3-stage .sl3t-title svg{width:1.7334cqw;height:1.7334cqw;flex:none;stroke:var(--blue);}
+  .sl3-stage .sl3t-actions{margin-left:auto;display:flex;gap:0.8667cqw;align-items:center;flex:none;}
+  .sl3-stage .sl3t-actions .newc{background:var(--blue);color:#fff;font-size:1.0593cqw;font-weight:700;padding:0.6741cqw 1.2519cqw;white-space:nowrap;}
+  .sl3-stage .sl3t-actions .dts{border:0.0963cqw solid var(--line);font-size:1.0593cqw;font-weight:600;color:var(--gray-700);padding:0.6741cqw 1.0593cqw;display:flex;gap:0.6741cqw;align-items:center;white-space:nowrap;}
+    .sl3-stage .sl3-side, .sl3-stage .sl3-top{display:none;}
+  .sl3-stage .dbv-toast{position:absolute;top:5.0077cqw;right:2.1186cqw;z-index:3;display:flex;gap:0.8667cqw;align-items:flex-start;background:#fff;border:0.0963cqw solid var(--line);box-shadow:0 0.963cqw 2.5039cqw rgba(11,12,16,.16);padding:0.963cqw 1.2519cqw;max-width:24.0755cqw;opacity:0;}
+  .sl3-stage .slx-pane.on .dbv-toast{animation:sl3DbvToast .55s cubic-bezier(.2,.7,.3,1.1) var(--td,3s) both;}
+  .sl3-stage .dbv-toast .ai{width:2.1186cqw;height:2.1186cqw;flex:none;display:flex;align-items:center;justify-content:center;background:#e9f9ef;color:#15803d;}
+  .sl3-stage .dbv-toast .ai svg{width:1.1556cqw;height:1.1556cqw;}
+  .sl3-stage .dbv-toast b{display:block;font-size:1.0593cqw;color:var(--ink);line-height:1.3;}
+  .sl3-stage .dbv-toast span{font-size:0.9149cqw;color:var(--gray-500);}
+  @keyframes sl3DbvToast{from{opacity:0;transform:translateY(-0.963cqw) scale(.97);}to{opacity:1;transform:none;}}
+  @keyframes sl3DbvIn{from{opacity:0;transform:translateY(0.8667cqw);}to{opacity:1;transform:none;}}
+  @keyframes sl3DbvBar{from{transform:scaleX(0);}to{transform:scaleX(1);}}
+  @keyframes sl3LpPop{from{opacity:0;transform:scale(.55);}to{opacity:1;transform:none;}}
+  .sl3-stage .dbv-toast{top:1.3482cqw;right:1.7334cqw;}
+  .sl3-stage .dbv-toast.bl .ai{background:#eaf0ff;color:var(--blue);}
+  .sl3-stage .ebm{position:absolute;inset:0;background:#f6f8fc;display:grid;grid-template-columns:18.1048cqw 1fr;grid-template-rows:5.0077cqw 1fr;overflow:hidden;}
+  .sl3-stage .ebm-top{grid-column:1/3;display:flex;align-items:center;gap:1.5408cqw;padding:0 1.7334cqw;background:#fff;border-bottom:0.0963cqw solid #e5e8ee;}
+  .sl3-stage .ebm-burger{display:flex;flex-direction:column;gap:0.2889cqw;flex:none;}
+  .sl3-stage .ebm-burger i{width:1.5408cqw;height:0.1926cqw;background:#5f6368;border-radius:0.1926cqw;}
+  .sl3-stage .ebm-logo{display:flex;align-items:center;gap:0.7704cqw;font-size:1.4445cqw;font-weight:600;color:#5f6368;flex:none;}
+  .sl3-stage .ebm-logo svg{width:2.0223cqw;height:2.0223cqw;stroke:#ea4335;}
+  .sl3-stage .ebm-search{flex:1;max-width:52.0031cqw;height:3.0817cqw;background:#eaf1fb;border-radius:0.7704cqw;display:flex;align-items:center;gap:0.963cqw;padding:0 1.2519cqw;font-size:1.1075cqw;color:#7a8194;}
+  .sl3-stage .ebm-search svg{width:1.3482cqw;height:1.3482cqw;}
+  .sl3-stage .ebm-acct{margin-left:auto;width:2.6965cqw;height:2.6965cqw;border-radius:50%;background:linear-gradient(160deg,#ece2d4,#d8c7ac);flex:none;}
+  .sl3-stage .ebm-rail{background:#f6f8fc;padding:1.3482cqw 0.7704cqw;display:flex;flex-direction:column;gap:0.0963cqw;overflow:hidden;}
+  .sl3-stage .ebm-compose{display:flex;align-items:center;gap:0.963cqw;background:#c2e7ff;color:#001d35;font-weight:600;font-size:1.1556cqw;padding:1.0593cqw 1.7334cqw;border-radius:1.5408cqw;width:fit-content;margin:0 0 1.3482cqw 0.5778cqw;}
+  .sl3-stage .ebm-compose svg{width:1.4445cqw;height:1.4445cqw;}
+  .sl3-stage .ebm-fold{display:flex;align-items:center;gap:1.3482cqw;font-size:1.2038cqw;font-weight:500;color:#444746;padding:0.6741cqw 1.5408cqw;border-radius:0 1.5408cqw 1.5408cqw 0;}
+  .sl3-stage .ebm-fold svg{width:1.4445cqw;height:1.4445cqw;stroke:#5f6368;flex:none;}
+  .sl3-stage .ebm-fold.on{background:#d3e3fd;color:#001d35;font-weight:700;}
+  .sl3-stage .ebm-fold.on svg{stroke:#001d35;}
+  .sl3-stage .ebm-fold em{margin-left:auto;font-style:normal;font-size:1.0112cqw;font-weight:700;}
+  .sl3-stage .ebm-read{background:#fff;border-left:0.0963cqw solid #e5e8ee;padding:2.1186cqw 2.6965cqw;overflow:hidden;}
+  .sl3-stage .ebm-subj{font-size:1.7334cqw;font-weight:500;color:#202124;display:flex;align-items:center;gap:1.0593cqw;}
+  .sl3-stage .ebm-lab{font-size:0.8667cqw;font-weight:700;color:#1a73e8;background:#e8f0fe;padding:0.2889cqw 0.7704cqw;border-radius:0.3852cqw;letter-spacing:.02em;}
+  .sl3-stage .ebm-from{display:flex;align-items:center;gap:1.1556cqw;margin:1.6371cqw 0 1.7334cqw;}
+  .sl3-stage .ebm-from .av{width:3.4669cqw;height:3.4669cqw;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:1.3482cqw;flex:none;}
+  .sl3-stage .ebm-from .av.nw{background:var(--blue);}
+  .sl3-stage .ebm-from .who b{font-size:1.2519cqw;color:#202124;display:block;font-weight:700;}
+  .sl3-stage .ebm-from .who span{font-size:1.0112cqw;color:#5f6368;}
+  .sl3-stage .ebm-time{margin-left:auto;font-size:1.0593cqw;color:#5f6368;}
+  .sl3-stage .ebm-mail{border:0.0963cqw solid #e5e8ee;border-radius:0.963cqw;overflow:hidden;max-width:57.7812cqw;}
+  .sl3-stage .ebm-body{padding:2.0223cqw 2.3112cqw 2.1186cqw;}
+  .sl3-stage .ebm-hi{font-size:1.2519cqw;color:#202124;font-weight:600;margin-bottom:1.2519cqw;}
+  .sl3-stage .ebm-ln{height:0.7704cqw;background:#eef0f4;border-radius:0.2889cqw;margin-bottom:0.963cqw;transform-origin:left;transform:scaleX(0);}
+  .sl3-stage .ebm-ln.s{width:56%;}
+  .sl3-stage .slx-pane.on .ebm-ln{animation:sl3DbvBar .6s ease both;animation-delay:.45s;}
+  .sl3-stage .slx-pane.on .ebm-body .ebm-ln:nth-of-type(3){animation-delay:.6s;}
+  .sl3-stage .ebm-recap{display:flex;align-items:center;gap:1.0593cqw;border:0.0963cqw solid #e5e8ee;border-radius:0.7704cqw;padding:1.0593cqw 1.2519cqw;margin:0.5778cqw 0 1.5408cqw;opacity:0;}
+  .sl3-stage .slx-pane.on .ebm-recap{animation:sl3DbvIn .5s ease .5s both;}
+  .sl3-stage .ebm-recap .um{width:2.5039cqw;height:2.5039cqw;background:var(--yellow);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:1.2519cqw;color:var(--ink);flex:none;}
+  .sl3-stage .ebm-recap .rx b{display:block;font-size:1.1075cqw;color:#202124;font-weight:700;}
+  .sl3-stage .ebm-recap .rx em{font-style:normal;font-size:0.963cqw;color:#5f6368;}
+  .sl3-stage .ebm-cta{display:inline-block;margin-top:0.7704cqw;background:var(--blue);color:#fff;font-size:1.1556cqw;font-weight:700;padding:1.0593cqw 2.1186cqw;opacity:0;}
+  .sl3-stage .slx-pane.on .ebm-cta{animation:sl3DbvIn .5s ease .75s both,sl3EvtPulse 2.6s ease 1.4s infinite;}
+  @keyframes sl3EvtPulse{0%,100%{box-shadow:0 0 0 0 rgba(27,69,255,0);}50%{box-shadow:0 0 0 0.5778cqw rgba(27,69,255,.13);}}
+  .sl3-stage .ebm-foot{font-size:0.9149cqw;color:#9aa0ad;margin-top:1.7334cqw;border-top:0.0963cqw solid #eef0f4;padding-top:1.2519cqw;}
+  .sl3-stage .slx-pane.on .ebm-subj{animation:sl3DbvIn .5s ease both;}
+  .sl3-stage .slx-pane.on .ebm-from{animation:sl3DbvIn .5s ease .1s both;}
+  .sl3-stage .esite{position:absolute;inset:0;background:#fff;overflow:hidden;display:flex;flex-direction:column;}
+  .sl3-stage .esite-nav{height:5.2003cqw;display:flex;align-items:center;padding:0 2.8891cqw;border-bottom:0.0963cqw solid var(--line);flex:none;}
+  .sl3-stage .esite-logo{display:flex;align-items:center;gap:0.963cqw;font-weight:800;font-size:1.3964cqw;color:var(--ink);}
+  .sl3-stage .esite-logo .nw{width:2.4076cqw;height:2.4076cqw;background:var(--blue);color:#fff;display:flex;align-items:center;justify-content:center;font-size:1.1556cqw;font-weight:800;}
+  .sl3-stage .esite-links{margin-left:auto;display:flex;align-items:center;gap:2.3112cqw;font-size:1.2038cqw;font-weight:600;color:var(--gray-500);}
+  .sl3-stage .esite-reg{background:var(--blue);color:#fff;padding:0.7704cqw 1.6371cqw;}
+  .sl3-stage .esite-hero{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;background:linear-gradient(135deg,#eef2ff,#fff 52%,#fff3ec);padding:2.3112cqw;}
+  .sl3-stage .esite-badge{font-size:0.8667cqw;font-weight:800;letter-spacing:.11em;text-transform:uppercase;color:var(--blue);background:#eaf0ff;padding:0.3852cqw 1.0593cqw;opacity:0;}
+  .sl3-stage .slx-pane.on .esite-badge{animation:sl3LpPop .5s cubic-bezier(.2,.8,.3,1.25) .35s both;}
+  .sl3-stage .esite-h{font-family:var(--font-serif);font-weight:400;font-size:clamp(2.8891cqw,4cqw,4.6225cqw);color:var(--ink);margin-top:1.6371cqw;letter-spacing:-.015em;opacity:0;}
+  .sl3-stage .slx-pane.on .esite-h{animation:sl3DbvIn .6s ease .2s both;}
+  .sl3-stage .esite-sub{font-size:1.3001cqw;color:var(--gray-500);margin-top:1.1556cqw;opacity:0;}
+  .sl3-stage .slx-pane.on .esite-sub{animation:sl3DbvIn .55s ease .4s both;}
+  .sl3-stage .esite-cta{margin-top:2.3112cqw;background:var(--orange);color:#fff;font-weight:700;font-size:1.2519cqw;padding:1.2519cqw 2.6965cqw;opacity:0;}
+  .sl3-stage .slx-pane.on .esite-cta{animation:sl3DbvIn .55s ease .6s both,sl3EvtPulse 2.6s ease 1.4s infinite;}
+  .sl3-stage .esite-ag{display:flex;align-items:flex-start;border-top:0.0963cqw solid var(--line);flex:none;overflow:hidden;}
+  .sl3-stage .ea{flex:1;padding:1.0593cqw 2.1186cqw;border-right:0.0963cqw solid var(--line);opacity:0;overflow:hidden;}
+  .sl3-stage .ea:last-child{border-right:none;}
+  .sl3-stage .slx-pane.on .ea{animation:sl3DbvIn .5s ease both;animation-delay:calc(.7s + var(--i,0)*.13s);}
+  .sl3-stage .ea .t{font-size:1.0593cqw;font-weight:800;color:var(--blue);}
+  .sl3-stage .ea b{display:block;font-size:1.2038cqw;color:var(--ink);margin-top:0.5778cqw;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+  .sl3-stage .ebm-thumb{border:0.0963cqw solid #e5e8ee;border-radius:0.7704cqw;overflow:hidden;margin:0.7704cqw 0 0.3852cqw;max-width:32.7427cqw;opacity:0;}
+  .sl3-stage .slx-pane.on .ebm-thumb{animation:sl3DbvIn .55s ease .55s both;}
+  .sl3-stage .et-bar{display:flex;align-items:center;gap:0.4815cqw;padding:0.6741cqw 1.0593cqw;background:#f6f8fc;border-bottom:0.0963cqw solid #e5e8ee;}
+  .sl3-stage .et-bar i{width:0.6741cqw;height:0.6741cqw;border-radius:50%;background:#d7dce6;flex:none;}
+  .sl3-stage .et-url{margin-left:0.5778cqw;font-size:0.8186cqw;color:#9aa0ad;}
+  .sl3-stage .et-body{background:linear-gradient(120deg,#eef2ff,#fff 52%,#fff3ec);padding:1.4445cqw 1.5408cqw 1.5408cqw;}
+  .sl3-stage .et-badge{font-size:0.7704cqw;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--blue);background:#eaf0ff;padding:0.1926cqw 0.6741cqw;}
+  .sl3-stage .et-h{font-family:var(--font-serif);font-weight:400;font-size:1.8297cqw;color:var(--ink);margin-top:0.8667cqw;letter-spacing:-.01em;}
+  .sl3-stage .et-sub{font-size:1.0112cqw;color:var(--gray-500);margin-top:0.3852cqw;}
+  .sl3-stage .et-btn{display:inline-block;margin-top:1.1556cqw;background:var(--orange);color:#fff;font-size:0.963cqw;font-weight:700;padding:0.7704cqw 1.3482cqw;}
+  .sl3-stage .ebm-p{font-size:1.0112cqw;line-height:1.55;color:#3c4043;margin-bottom:1.0593cqw;opacity:0;}
+  .sl3-stage .slx-pane.on .ebm-p.i1{animation:sl3DbvIn .45s ease .3s both;}
+  .sl3-stage .ebm-thumb.paste{opacity:0;}
+  .sl3-stage .slx-pane.on .ebm-thumb.paste{animation:sl3EbmPaste .6s cubic-bezier(.2,.8,.3,1.12) 1.4s both;}
+  @keyframes sl3EbmPaste{0%{opacity:0;transform:scale(.93) translateY(0.963cqw);}55%{opacity:1;}100%{opacity:1;transform:none;}}
+</style>
+
+<script>
+(function(){
+  // sl3 platform frame driver — sidebar nav, header title, and browser chrome follow the active pane
+  var screen = document.querySelector('.sl3-stage .sl3-screen'); if(!screen) return;
+  var titleEl = screen.querySelector('.sl3t-title b');
+  var urlEl = screen.querySelector('.sl3-chrome .url');
+  var navs = [].slice.call(screen.querySelectorAll('.sl3s-nav[data-nav]'));
+  var topEl = screen.querySelector('.sl3-top');
+  function setc(el, cls, want){ if(el && el.classList.contains(cls) !== want) el.classList.toggle(cls, want); }
+  function settxt(el, t){ if(el && el.textContent !== t) el.textContent = t; }
+  function apply(){
+    var panel = null;
+    [].forEach.call(screen.querySelectorAll('.sl-panel'), function(p){ if(!p.hidden) panel = p; });
+    var pane = panel ? panel.querySelector('.slx-pane.on') : null;
+    if(!pane) return;
+    var bws = pane.classList.contains('bws');
+    setc(screen, 'bws-on', bws);
+    if(bws){ settxt(urlEl, pane.getAttribute('data-url') || 'linkedin.com'); return; }
+    var nav = (pane.getAttribute('data-nav') || 'dashboard').toLowerCase();
+    navs.forEach(function(n){ setc(n, 'on', n.getAttribute('data-nav') === nav); });
+    settxt(titleEl, pane.getAttribute('data-title') || 'Dashboard');
+    if(topEl) setc(topEl, 'notabs', pane.getAttribute('data-notabs') === '1');
+  }
+  var mo = new MutationObserver(function(){ apply(); });
+  mo.observe(screen, { subtree: true, attributes: true, attributeFilter: ['class', 'hidden'] });
+  apply();
+})();
+</script>
+<script>
+(function(){
+  // slx — panes autoplay every 12s (item-click switcher removed along with .slx-list)
+  var stage = document.querySelector('.sl3-stage'); if(!stage) return;
+  [].forEach.call(stage.querySelectorAll('.sl-panel'), function(panel){
+    var panes = [].slice.call(panel.querySelectorAll('.slx-pane'));
+    if(!panes.length) return;
+    var cur = 0;
+    panes.forEach(function(pn, k){ if(pn.classList.contains('on')) cur = k; });
+    function act(j){
+      cur = j;
+      panes.forEach(function(pn, k){ pn.classList.toggle('on', k === j); });
+    }
+    setInterval(function(){
+      if(panel.hidden || document.hidden) return;
+      if(panel.matches(':hover')) return;
+      act((cur + 1) % panes.length);
+    }, 12000);
+  });
+})();
+</script>
